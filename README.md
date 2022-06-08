@@ -18,7 +18,7 @@ install requirements:
 pip install -r requirements.txt
 ```
 
-## Training the adversarial models
+## Training the policy
 
 
 To run the the training run `train_sl.py`.
