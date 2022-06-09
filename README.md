@@ -10,7 +10,7 @@ makes a mistake.
 Clone the repo
 
 ```bash
-git clone https://github.com/sampo-kuutti/dnn-driven-av-safety-cages/.git
+git clone https://github.com/sampo-kuutti/dnn-driven-av-safety-cages
 ```
 
 install requirements:

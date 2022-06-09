@@ -49,7 +49,6 @@ class SupervisedModel(object):
         self.W_fc4 = weight_variable([hidden_3, num_outputs])
         self.b_fc4 = bias_variable([num_outputs])
         self.y = tf.tanh(tf.matmul(self.h_fc1, self.W_fc4) + self.b_fc4, name='y')
-        #self.y = tf.multiply(tf.atan(tf.matmul(self.h_fc1, self.W_fc4) + self.b_fc4),  2, name='y')
 
 
 
